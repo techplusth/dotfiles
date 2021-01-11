@@ -35,8 +35,9 @@ Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
-colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
+
 let g:airline_powerline_fonts = 1
 
 let mapleader=" "
