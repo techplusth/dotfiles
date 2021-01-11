@@ -83,6 +83,9 @@ export EDITOR='nvim'
 
 bindkey '^ ' autosuggest-accept
 
+export XDG_CONFIG_HOME=$HOME/.config
+export TMUX_PLUGIN_MANAGER_PATH=$XDG_CONFIG_HOME/tmux/plugins
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
